@@ -23,7 +23,7 @@
 
 PRODUCT_PLATFORM := Lagan
 $(call inherit-product, $(LOCAL_PATH)/sgp311-partial.mk)
-$(call inherit-product, vendor/sony/lagan/lagan-partial.mk)
+$(call inherit-product, vendor/sony/lagan/lagan-vendor-blobs.mk)
 $(call inherit-product-if-exists, vendor/qcom/lagan/lagan-partial.mk)
 
 PRODUCT_COPY_FILES += \
