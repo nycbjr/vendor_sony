@@ -87,9 +87,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/lagan/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/lagan/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
-    vendor/sony/lagan/proprietary/etc/firmware/wifi/prima/WCNSS_cfg.dat:system/etc/firmware/wifi/prima/WCNSS_cfg.dat \
-    vendor/sony/lagan/proprietary/etc/firmware/wifi/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wifi/prima/WCNSS_qcom_cfg.ini \
-    vendor/sony/lagan/proprietary/etc/firmware/wifi/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wifi/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/lagan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/lagan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/lagan/proprietary/lib/libalarmservice_jni.so:system/lib/libalarmservice_jni.so \
