@@ -205,4 +205,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/sony/lagan/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/lagan/proprietary/xbin/tad_static:system/xbin/tad_static
+    vendor/sony/lagan/proprietary/sbin/tad_static:system/sbin/tad_static
