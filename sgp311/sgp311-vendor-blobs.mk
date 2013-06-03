@@ -22,7 +22,7 @@
 #    vendor/sony/sgp311/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 PRODUCT_PLATFORM := Lagan
-$(call inherit-product, $(LOCAL_PATH)/sgp311-partial.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/sgp311-partial.mk)
 $(call inherit-product, vendor/sony/lagan/lagan-vendor-blobs.mk)
 $(call inherit-product-if-exists, vendor/qcom/lagan/lagan-partial.mk)
 
