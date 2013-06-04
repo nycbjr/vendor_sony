@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/sony/sgp311/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     vendor/sony/sgp311/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/sony/sgp311/proprietary/ietc/audio_policy.conf:system/ietc/audio_policy.conf \
+    vendor/sony/sgp311/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/sony/sgp311/proprietary/etc/audio_policy_8064.conf:system/etc/audio_policy_8064.conf \
     vendor/sony/sgp311/proprietary/bin/remount:system/bin/remount \
     vendor/sony/sgp311/proprietary/bin/mac-update:system/bin/mac-update \
