@@ -17,7 +17,4 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/sony/sgp311/overlay
 
-PRODUCT_PLATFORM := Lagan
 $(call inherit-product, vendor/sony/sgp311/sgp311-vendor-blobs.mk)
-$(call inherit-product, vendor/sony/lagan/lagan-vendor-blobs.mk)
-$(call inherit-product-if-exists, vendor/qcom/lagan/lagan-partial.mk)

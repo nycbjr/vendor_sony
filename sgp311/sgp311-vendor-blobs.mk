@@ -21,11 +21,6 @@
 #    vendor/sony/sgp311/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
 #    vendor/sony/sgp311/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
-PRODUCT_PLATFORM := Lagan
-$(call inherit-product-if-exists, $(LOCAL_PATH)/sgp311-partial.mk)
-$(call inherit-product, vendor/sony/lagan/lagan-vendor-blobs.mk)
-$(call inherit-product-if-exists, vendor/qcom/lagan/lagan-partial.mk)
-
 PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/sony/sgp311/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
@@ -34,6 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/sony/sgp311/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/sony/sgp311/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
+    vendor/sony/sgp311/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/sony/sgp311/proprietary/ietc/audio_policy.conf:system/ietc/audio_policy.conf \
+    vendor/sony/sgp311/proprietary/etc/audio_policy_8064.conf:system/etc/audio_policy_8064.conf \
     vendor/sony/sgp311/proprietary/bin/remount:system/bin/remount \
     vendor/sony/sgp311/proprietary/bin/mac-update:system/bin/mac-update \
     vendor/sony/sgp311/proprietary/bin/illumination_service:system/bin/illumination_service \

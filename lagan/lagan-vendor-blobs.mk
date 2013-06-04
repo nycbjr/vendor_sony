@@ -90,6 +90,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/sony/lagan/proprietary/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
+    vendor/sony/lagan/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
+    vendor/sony/lagan/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+    vendor/sony/lagan/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/sony/lagan/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/sony/lagan/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/lagan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/lagan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/lagan/proprietary/lib/libalarmservice_jni.so:system/lib/libalarmservice_jni.so \
