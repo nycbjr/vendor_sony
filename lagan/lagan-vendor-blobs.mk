@@ -245,7 +245,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/lagan/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/lagan/proprietary/lib/hw/camero.qcom.so:system/lib/hw/camero.qcom.so \
+    vendor/sony/lagan/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/lagan/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
