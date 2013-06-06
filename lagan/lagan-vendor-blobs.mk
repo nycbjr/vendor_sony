@@ -34,8 +34,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/lagan/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/lagan/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
+    vendor/sony/lagan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/lagan/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/lagan/proprietary/etc/thermald.conf:system/etc/thermald.conf \
+    vendor/sony/lagan/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/sony/lagan/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/sony/lagan/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/lagan/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/lagan/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -85,6 +88,40 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/lagan/proprietary/etc/firmware/wcnss.flist:system/etc/firmware/wcnss.flist \
     vendor/sony/lagan/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/lagan/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
+    vendor/sony/lagan/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/sony/lagan/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/sony/lagan/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/sony/lagan/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/sony/lagan/proprietary/etc/firmware/dxhdcp2.flist:system/etc/firmware/dxhdcp2.flist \
+    vendor/sony/lagan/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b00:system/etc/firmware/gss.b00 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b01:system/etc/firmware/gss.b01 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b02:system/etc/firmware/gss.b02 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b03:system/etc/firmware/gss.b03 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b04:system/etc/firmware/gss.b04 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b05:system/etc/firmware/gss.b05 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b06:system/etc/firmware/gss.b06 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b07:system/etc/firmware/gss.b07 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b08:system/etc/firmware/gss.b08 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b09:system/etc/firmware/gss.b09 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b10:system/etc/firmware/gss.b10 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.b11:system/etc/firmware/gss.b11 \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.flist:system/etc/firmware/gss.flist \
+    vendor/sony/lagan/proprietary/etc/firmware/gss.mdt:system/etc/firmware/gss.mdt \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.b06:system/etc/firmware/q6.b06 \
+    vendor/sony/lagan/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
+    vendor/sony/lagan/proprietary/etc/firmware/rpm.mbn:system/etc/firmware/rpm.mbn \
+    vendor/sony/lagan/proprietary/etc/firmware/sbl1.mbn:system/etc/firmware/sbl1.mbn \
+    vendor/sony/lagan/proprietary/etc/firmware/sbl2.mbn:system/etc/firmware/sbl2.mbn \
+    vendor/sony/lagan/proprietary/etc/firmware/touch_module_id_0x3a.img:system/etc/firmware/touch_module_id_0x3a.img \
+    vendor/sony/lagan/proprietary/etc/firmware/touch_module_id_0x3b.img:system/etc/firmware/touch_module_id_0x3b.img \
+    vendor/sony/lagan/proprietary/etc/firmware/touch_module_id_0x4c.img:system/etc/firmware/touch_module_id_0x4c.img \
     vendor/sony/lagan/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/lagan/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
@@ -195,6 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/lagan/proprietary/lib/libtzplayready.so:system/lib/libtzplayready.so \
     vendor/sony/lagan/proprietary/lib/libulp2.so:system/lib/libulp2.so \
+    vendor/sony/lagan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/lagan/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/lagan/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/sony/lagan/proprietary/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
@@ -206,9 +244,30 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/sony/lagan/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/sony/lagan/proprietary/lib/hw/camero.qcom.so:system/lib/hw/camero.qcom.so \
     vendor/sony/lagan/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/sony/lagan/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/lagan/proprietary/sbin/tad_static:system/sbin/tad_static
+    vendor/sony/lagan/proprietary/sbin/tad_static:system/sbin/tad_static \
+    vendor/sony/lagan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/LGI08BN2.dat:system/vendor/camera/LGI08BN2.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/LGI08BN2_DW9714.dat:system/vendor/camera/LGI08BN2_DW9714.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/LGI08BN2_IMX111.dat:system/vendor/camera/LGI08BN2_IMX111.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SEM02BN0.dat:system/vendor/camera/SEM02BN0.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SEM13BS0_IMX135.dat:system/vendor/camera/SEM13BS0_IMX135.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SEM13BS0_WV570.dat:system/vendor/camera/SEM13BS0_WV570.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SEM13BS1_IMX135.dat:system/vendor/camera/SEM13BS1_IMX135.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SEM13BS1_WV570.dat:system/vendor/camera/SEM13BS1_WV570.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SOI08BN1_IMX111.dat:system/vendor/camera/SOI08BN1_IMX111.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SOI13BS1_DW9735.dat:system/vendor/camera/SOI13BS1_DW9735.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SOI13BS1_IMX135.dat:system/vendor/camera/SOI13BS1_IMX135.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat

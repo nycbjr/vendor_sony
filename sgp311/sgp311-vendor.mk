@@ -18,4 +18,3 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/sony/sgp311/overlay
 
 $(call inherit-product, vendor/sony/sgp311/sgp311-vendor-blobs.mk)
-$(call inherit-product, vendor/sony/lagan/lagan-vendor-blobs.mk)

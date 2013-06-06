@@ -23,15 +23,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-    vendor/sony/sgp311/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/sony/sgp311/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/sony/sgp311/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
     vendor/sony/sgp311/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/sony/sgp311/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/sony/sgp311/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
-    vendor/sony/sgp311/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/sony/sgp311/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    vendor/sony/sgp311/proprietary/etc/audio_policy_8064.conf:system/etc/audio_policy_8064.conf \
     vendor/sony/sgp311/proprietary/bin/remount:system/bin/remount \
     vendor/sony/sgp311/proprietary/bin/mac-update:system/bin/mac-update \
     vendor/sony/sgp311/proprietary/bin/illumination_service:system/bin/illumination_service \
