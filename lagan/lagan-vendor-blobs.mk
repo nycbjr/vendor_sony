@@ -149,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/lagan/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/lagan/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/sony/lagan/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/lagan/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/sony/lagan/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
     vendor/sony/lagan/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -187,10 +186,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libmsapu_jni.so:system/lib/libmsapu_jni.so \
     vendor/sony/lagan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/lagan/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
-    vendor/sony/lagan/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/sony/lagan/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/sony/lagan/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/sony/lagan/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/sony/lagan/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/sony/lagan/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/lagan/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
