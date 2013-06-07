@@ -175,25 +175,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/lagan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/lagan/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/sony/lagan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/sony/lagan/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/sony/lagan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/lagan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/lagan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/lagan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/lagan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/lagan/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/lagan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/lagan/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
     vendor/sony/lagan/proprietary/lib/libmsapm_jni.so:system/lib/libmsapm_jni.so \
@@ -250,15 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/sony/lagan/proprietary/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
     vendor/sony/lagan/proprietary/lib/libxtwifi_zpp_adaptor.so:system/lib/libxtwifi_zpp_adaptor.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/lagan/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/sony/lagan/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/sony/lagan/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -266,9 +243,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/lagan/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/lagan/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/lagan/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
+    vendor/sony/lagan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/lagan/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
