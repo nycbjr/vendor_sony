@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/lagan/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
     vendor/sony/lagan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
+    vendor/sony/lagan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/lagan/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/lagan/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/sony/lagan/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
