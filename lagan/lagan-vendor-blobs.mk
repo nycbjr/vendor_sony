@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/lagan/proprietary/bin/ks:system/bin/ks \
     vendor/sony/lagan/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/sony/lagan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/lagan/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/lagan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/lagan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -237,7 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/lagan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/lagan/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
-    vendor/sony/lagan/proprietary/libbmsapm_jni.so:system/libbmsapm_jni.so \
+    vendor/sony/lagan/proprietary/lib/libbmsapm_jni.so:system/lib/libbmsapm_jni.so \
     vendor/sony/lagan/proprietary/lib/libmsapu_jni.so:system/lib/libmsapu_jni.so \
     vendor/sony/lagan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/lagan/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
@@ -328,4 +327,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/lagan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/lagan/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
-    vendor/sony/lagan/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/sony/lagan/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
