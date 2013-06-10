@@ -236,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/lagan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/lagan/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
-    vendor/sony/lagan/proprietary/lib/libbmsapm_jni.so:system/lib/libbmsapm_jni.so \
     vendor/sony/lagan/proprietary/lib/libmsapu_jni.so:system/lib/libmsapu_jni.so \
     vendor/sony/lagan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/lagan/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
