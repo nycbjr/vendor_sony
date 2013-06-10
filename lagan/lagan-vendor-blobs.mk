@@ -22,41 +22,30 @@
 #    vendor/sony/lagan/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/lagan/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/sony/lagan/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-    vendor/sony/lagan/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
-    vendor/sony/lagan/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/lagan/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
-    vendor/sony/lagan/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/sony/lagan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/sony/lagan/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/sony/lagan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/lagan/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/lagan/proprietary/bin/ks:system/bin/ks \
     vendor/sony/lagan/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/sony/lagan/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/sony/lagan/proprietary/bin/qcks:system/bin/qcks \
+    vendor/sony/lagan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/lagan/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/lagan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/lagan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/lagan/proprietary/bin/ta2bin:system/bin/ta2bin \
-    vendor/sony/lagan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
-    vendor/sony/lagan/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
     vendor/sony/lagan/proprietary/bin/taimport:system/bin/taimport \
+    vendor/sony/lagan/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
+    vendor/sony/lagan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
+    vendor/sony/lagan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/lagan/proprietary/bin/thermald:system/bin/thermald \
-    vendor/sony/lagan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/lagan/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/sony/lagan/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/lagan/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-    vendor/sony/lagan/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/lagan/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/sony/lagan/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/sony/lagan/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/lagan/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/lagan/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/sony/lagan/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/lagan/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/sony/lagan/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/lagan/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
-    vendor/sony/lagan/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
     vendor/sony/lagan/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
     vendor/sony/lagan/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/lagan/proprietary/etc/firmware/dsp1.mbn:system/etc/firmware/dsp1.mbn \
@@ -70,9 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/lagan/proprietary/etc/firmware/dsps.flist:system/etc/firmware/dsps.flist \
     vendor/sony/lagan/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/lagan/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
-    vendor/sony/lagan/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
-    vendor/sony/lagan/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
     vendor/sony/lagan/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/sony/lagan/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/lagan/proprietary/etc/firmware/mdm_acdb.img:system/etc/firmware/mdm_acdb.img \
@@ -134,27 +120,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/etc/firmware/rpm.mbn:system/etc/firmware/rpm.mbn \
     vendor/sony/lagan/proprietary/etc/firmware/sbl1.mbn:system/etc/firmware/sbl1.mbn \
     vendor/sony/lagan/proprietary/etc/firmware/sbl2.mbn:system/etc/firmware/sbl2.mbn \
-    vendor/sony/lagan/proprietary/etc/firmware/ta.mbn:system/etc/firmware/ta.mbn \
     vendor/sony/lagan/proprietary/etc/firmware/touch_module_id_0x3a.img:system/etc/firmware/touch_module_id_0x3a.img \
     vendor/sony/lagan/proprietary/etc/firmware/touch_module_id_0x3b.img:system/etc/firmware/touch_module_id_0x3b.img \
     vendor/sony/lagan/proprietary/etc/firmware/touch_module_id_0x4c.img:system/etc/firmware/touch_module_id_0x4c.img \
-    vendor/sony/lagan/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
-    vendor/sony/lagan/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
-    vendor/sony/lagan/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/lagan/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/lagan/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/lagan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/lagan/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/sony/lagan/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/sony/lagan/proprietary/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
     vendor/sony/lagan/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/lagan/proprietary/lib/libmpl.so:system/lib/libmpl.so \
@@ -162,28 +135,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/lagan/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/lagan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/sony/lagan/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    vendor/sony/lagan/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/sony/lagan/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/lagan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/lagan/proprietary/lib/libalarmservice_jni.so:system/lib/libalarmservice_jni.so \
-    vendor/sony/lagan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/lagan/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/lagan/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/sony/lagan/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
-    vendor/sony/lagan/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/lagan/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
-    vendor/sony/lagan/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
-    vendor/sony/lagan/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/sony/lagan/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/lagan/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/sony/lagan/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/lagan/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/lagan/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/sony/lagan/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/lagan/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/lagan/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/lagan/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/lagan/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/sony/lagan/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/lagan/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -197,12 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/sony/lagan/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/lagan/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/sony/lagan/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/sony/lagan/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
-    vendor/sony/lagan/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
-    vendor/sony/lagan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/lagan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/sony/lagan/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/lagan/proprietary/lib/libexternal.so:system/lib/libexternal.so \
     vendor/sony/lagan/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so \
     vendor/sony/lagan/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
@@ -210,32 +164,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/lagan/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/sony/lagan/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/lagan/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
-    vendor/sony/lagan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/sony/lagan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/sony/lagan/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/lagan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/lagan/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/sony/lagan/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/sony/lagan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/sony/lagan/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/lagan/proprietary/lib/libMcClientQC.so:system/lib/libMcClientQC.so \
     vendor/sony/lagan/proprietary/lib/libMcRegistryQC.so:system/lib/libMcRegistryQC.so \
+    vendor/sony/lagan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/lagan/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/sony/lagan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/lagan/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/lagan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/lagan/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/sony/lagan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/sony/lagan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/lagan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/sony/lagan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/sony/lagan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/sony/lagan/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/lagan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/lagan/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
+    vendor/sony/lagan/proprietary/lib/libmsapm_jni.so:system/lib/libmsapm_jni.so \
     vendor/sony/lagan/proprietary/lib/libmsapu_jni.so:system/lib/libmsapu_jni.so \
     vendor/sony/lagan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/lagan/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
@@ -252,10 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/lagan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/lagan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/sony/lagan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/sony/lagan/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-    vendor/sony/lagan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/sony/lagan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/lagan/proprietary/lib/libqcgesture.so:system/lib/libqcgesture.so \
     vendor/sony/lagan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/lagan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/lagan/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
@@ -280,6 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/sony/lagan/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/sony/lagan/proprietary/lib/libSSEPKCS11.so:system/lib/libSSEPKCS11.so \
+    vendor/sony/lagan/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/lagan/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/lagan/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/lagan/proprietary/lib/libtzplayready.so:system/lib/libtzplayready.so \
@@ -296,8 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/lagan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/lagan/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/lagan/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/lagan/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/lagan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/lagan/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
@@ -312,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/vendor/camera/LGI08BN2.dat:system/vendor/camera/LGI08BN2.dat \
     vendor/sony/lagan/proprietary/vendor/camera/LGI08BN2_DW9714.dat:system/vendor/camera/LGI08BN2_DW9714.dat \
     vendor/sony/lagan/proprietary/vendor/camera/LGI08BN2_IMX111.dat:system/vendor/camera/LGI08BN2_IMX111.dat \
+    vendor/sony/lagan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/lagan/proprietary/vendor/camera/SEM02BN0.dat:system/vendor/camera/SEM02BN0.dat \
     vendor/sony/lagan/proprietary/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat \
     vendor/sony/lagan/proprietary/vendor/camera/SEM13BS0_IMX135.dat:system/vendor/camera/SEM13BS0_IMX135.dat \
@@ -322,8 +266,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lagan/proprietary/vendor/camera/SOI13BS1_DW9735.dat:system/vendor/camera/SOI13BS1_DW9735.dat \
     vendor/sony/lagan/proprietary/vendor/camera/SOI13BS1_IMX135.dat:system/vendor/camera/SOI13BS1_IMX135.dat \
     vendor/sony/lagan/proprietary/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
-    vendor/sony/lagan/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
-    vendor/sony/lagan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/lagan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/lagan/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
-    vendor/sony/lagan/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/lagan/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat
