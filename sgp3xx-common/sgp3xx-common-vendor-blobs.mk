@@ -40,6 +40,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b00:system/etc/firmware/gss.b00 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b01:system/etc/firmware/gss.b01 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b02:system/etc/firmware/gss.b02 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b03:system/etc/firmware/gss.b03 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b04:system/etc/firmware/gss.b04 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b05:system/etc/firmware/gss.b05 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b06:system/etc/firmware/gss.b06 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b07:system/etc/firmware/gss.b07 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b08:system/etc/firmware/gss.b08 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b09:system/etc/firmware/gss.b09 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b10:system/etc/firmware/gss.b10 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.b11:system/etc/firmware/gss.b11 \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.flist:system/etc/firmware/gss.flist \
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/gss.mdt:system/etc/firmware/gss.mdt \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
