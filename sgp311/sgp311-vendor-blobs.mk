@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/sgp311/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/sgp311/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/sony/sgp311/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/sony/sgp311/proprietary/bin/rild:system/bin/rild \
+    vendor/sony/sgp311/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/sgp311/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/sgp311/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/sgp311/proprietary/bin/rmt_storage:system/bin/rmt_storage \
