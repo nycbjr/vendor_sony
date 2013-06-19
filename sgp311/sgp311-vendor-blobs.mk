@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/sgp311/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/sgp311/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/sgp311/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/sgp311/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/sgp311/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/sgp311/proprietary/lib/libidl.so:system/lib/libidl.so \
