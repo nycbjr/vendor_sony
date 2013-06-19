@@ -98,6 +98,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/sgp311/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/sgp311/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/sgp311/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/sgp311/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/sony/sgp311/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/sony/sgp311/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/sgp311/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/sgp311/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/sgp311/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/sgp311/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -131,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/sgp311/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/sgp311/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
-    vendor/sony/sgp311/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/sgp311/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/sgp311/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/sgp311/proprietary/lib/libmllite.so:system/lib/libmllite.so \
