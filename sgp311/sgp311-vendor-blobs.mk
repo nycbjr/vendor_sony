@@ -27,6 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/sgp311/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/sgp311/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/sony/sgp311/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/sony/sgp311/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/sony/sgp311/proprietary/bin/cnd:system/bin/cnd \
+    vendor/sony/sgp311/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+    vendor/sony/sgp311/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/sgp311/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/sgp311/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/sgp311/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -92,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sgp311/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/sgp311/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/sgp311/proprietary/#lib/hw/gps.default.so:system/#lib/hw/gps.default.so \
     vendor/sony/sgp311/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/sgp311/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/sgp311/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -118,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/sgp311/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/sgp311/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/sgp311/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/sgp311/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/sgp311/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/sgp311/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
@@ -125,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/sgp311/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/sgp311/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/sgp311/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/sgp311/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/sgp311/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/sgp311/proprietary/lib/libmllite.so:system/lib/libmllite.so \
