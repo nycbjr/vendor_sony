@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/sgp311/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/sgp311/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/sgp311/proprietary/bin/dxhdcpd:system/bin/dxhdcpd \
     vendor/sony/sgp311/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/sgp311/proprietary/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/sgp311/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
@@ -64,6 +65,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/sgp311/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/sgp311/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
+    vendor/sony/sgp311/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/sony/sgp311/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/sony/sgp311/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/sony/sgp311/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/sony/sgp311/proprietary/etc/firmware/dxhdcp2.flist:system/etc/firmware/dxhdcp2.flist \
+    vendor/sony/sgp311/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/sgp311/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/sgp311/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
     vendor/sony/sgp311/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
@@ -111,6 +118,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/sgp311/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/sgp311/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/sgp311/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
+    vendor/sony/sgp311/proprietary/lib/lib_dxhdcp_provisioning.so:system/lib/lib_dxhdcp_provisioning.so \
+    vendor/sony/sgp311/proprietary/lib/libwfdhdcpcp.so:system/lib/libwfdhdcpcp.so \
     vendor/sony/sgp311/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sgp311/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/sony/sgp311/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
