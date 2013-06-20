@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/sgp311/proprietary/bin/rild:system/bin/rild \
     vendor/sony/sgp311/proprietary/bin/illumination_service:system/bin/illumination_service \
+    vendor/sony/sgp311/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/sgp311/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/sgp311/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/sgp311/proprietary/bin/dxhdcpd:system/bin/dxhdcpd \
