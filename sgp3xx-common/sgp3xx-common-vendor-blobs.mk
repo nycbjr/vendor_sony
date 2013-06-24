@@ -42,4 +42,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+    vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libmmwfdinterface.so:system/lib/libmmwfdinterface.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libmmwfdsinkinterface.so:system/lib/libmmwfdsinkinterface.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libmmwfdsrcinterface.so:system/lib/libmmwfdsrcinterface.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdmmutils.so:system/lib/libwfdmmutils.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/sony/sgp3xx-common/proprietary/bin/suntrold:system/bin/suntrold

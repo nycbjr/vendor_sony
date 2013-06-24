@@ -121,7 +121,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/sgp311/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/sony/sgp311/proprietary/lib/lib_dxhdcp_provisioning.so:system/lib/lib_dxhdcp_provisioning.so \
+    vendor/sony/sgp311/proprietary/lib/lib/libwfdmmsink.so:system/lib/lib/libwfdmmsink.so \
     vendor/sony/sgp311/proprietary/lib/libwfdhdcpcp.so:system/lib/libwfdhdcpcp.so \
+    vendor/sony/sgp311/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/sony/sgp311/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sgp311/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/sony/sgp311/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
