@@ -103,8 +103,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/sgp311/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/sony/sgp311/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/sgp311/proprietary/lib/hw/camera.msm8960.so:lib/hw/vendor-camera.msm8960.so:system/lib/hw/camera.msm8960.so:lib/hw/vendor-camera.msm8960.so \
-    vendor/sony/sgp311/proprietary/lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so:system/lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so \
+    vendor/sony/sgp311/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/sony/sgp311/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    vendor/sony/sgp311/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/sgp311/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/sgp311/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/sgp311/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/sgp311/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -198,4 +200,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp311/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
     vendor/sony/sgp311/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/sgp311/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/sgp311/proprietary/vendor/firmware/libpn544_fw_c3.so:vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw_c3.so:vendor/firmware/libpn544_fw.so
+    vendor/sony/sgp311/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
+    vendor/sony/sgp311/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
