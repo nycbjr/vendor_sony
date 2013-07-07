@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/sgp3xx-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/sgp3xx-common/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/sony/sgp3xx-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/sgp3xx-common/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
     vendor/sony/sgp3xx-common/proprietary/lib/libmmwfdinterface.so:system/lib/libmmwfdinterface.so \
     vendor/sony/sgp3xx-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
